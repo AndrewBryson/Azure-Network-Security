@@ -1321,14 +1321,14 @@
       },
       "properties": {
         "hardwareProfile": {
-          "vmSize": "Standard_D2s_v3"
+          "vmSize": "Standard_D2ads_v5"
         },
         "storageProfile": {
           "osDisk": {
             "name": "[concat(variables('VM-Name2'),'-datadisk1')]",
             "createOption": "fromImage",
             "managedDisk": {
-              "storageAccountType": "Standard_LRS"
+              "storageAccountType": "StandardSSD_LRS"
             }
           },
           "imageReference": {
